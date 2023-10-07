@@ -1,0 +1,180 @@
+@media (max-width: 950px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+  .hero .container .text h1 {
+    font-size: 56px;
+    padding-bottom: 20px;
+  }
+  .hero .container .text p {
+    font-size: medium;
+  }
+  .container .text .btnn a {
+    font-size: 25px;
+  }
+  header {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+  }
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .containerr {
+    flex-direction: column;
+  }
+  .row {
+    padding: 0;
+  }
+  .iconn {
+    width: 75px;
+  }
+  .about .container .image img {
+    width: 325px;
+    box-shadow: -15px 15px 0px 0px #D60C0C;
+    margin: auto;
+  }
+  .container .text h1 {
+    font-size: 70px;
+  }
+  .special-heading {
+    font-size: 70px;
+  }
+  .hero .container .image img {
+    display: none;
+  }
+  .contact-info:before {
+    bottom: initial;
+    top: -75px;
+    right: 65px;
+    transform: scale(0.95);
+  }
+
+  .contact-form:before {
+    top: -13px;
+    left: initial;
+    right: 70px;
+  }
+
+  .square {
+    transform: translate(140%, 43%);
+    height: 350px;
+  }
+
+  .hero .text {
+    width: 100%;
+  }
+
+  .big-circle {
+    bottom: 75%;
+    transform: scale(0.9) translate(-40%, 30%);
+    right: 50%;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .testimonials h1 {
+    font-size: 50px;
+  }
+
+  .card .text {
+    padding-top: 0;
+    max-width: 90%;
+    margin-left: 0;
+  }
+
+  .card .text h2 {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .text {
+    margin: 1rem 0 1.5rem 0;
+    padding-top: 25px;
+  }
+
+  .social-media {
+    padding: 1.5rem 0 0 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 1.5rem;
+  }
+
+  .contact-info:before {
+    display: none;
+  }
+
+  .square,
+  .big-circle {
+    display: none;
+  }
+
+  form,
+  .contact-info {
+    padding: 1.7rem 1.6rem;
+  }
+
+  .text,
+  .information,
+  .social-media p {
+    font-size: 0.8rem;
+  }
+
+  .title {
+    font-size: 1.15rem;
+  }
+
+  .social-icons a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .icon {
+    width: 23px;
+  }
+
+  .input {
+    padding: 0.45rem 1.2rem;
+  }
+
+  .btn {
+    padding: 0.45rem 1.2rem;
+  }
+}
+
+@media (max-width: 960px) {
+  .col{
+    flex: 100%;
+    max-width: 80%;
+  }
+  }
+  
+  @media (max-width: 600px) {
+  .col{
+    flex: 100%;
+    max-width: 100%;
+  }
+  }
+
+  @media (min-width: 950px) {
+    header .navbar {
+      display: block;
+    }
+  
+    .mobile-nav {
+      display: none;
+    }
+  
+    .humburger {
+      display: none;
+    }
+  }
